@@ -1,0 +1,175 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Goblin ', cursive;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 4em;
+  font-family: 'Dancing Script', cursive;
+  color: #94d0cc;
+}
+
+h2 {
+  margin-top: 30px;
+  color: #94d0cc;
+}
+
+h3 {
+  color: #94d0cc;
+}
+
+hr {
+  border: dotted #e1f1dd 6px;
+  border-bottom: none;
+  width: 10%;
+}
+
+.top {
+  background-color: #e1f1dd;
+  height: 490px;
+  width: 1400px;;
+  position: relative;
+  padding: 100px;
+  margin-bottom: 10px;
+  color: #94d0cc;
+}
+
+.tcloud {
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  right: 450px;
+  top: 50px;
+}
+
+.bcloud {
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  left: 450px;
+  bottom: 450px;
+}
+
+.mountain {
+  height: 400px;
+  width: 600px;
+  margin-top: 20px;
+  position: absolute;
+  bottom: 10px;
+  border-radius: 20%;
+  right: 500px;
+  margin-bottom: 20px;
+}
+
+.title {
+  margin-bottom: 20px;
+}
+
+.cp {
+  width: 25%;
+  text-align: center;
+  float: left;
+  margin: 50px 20px 10px auto;
+}
+
+p {
+  line-height: 1.5;
+}
+
+.chill {
+  width: 25%;
+  text-align: center;
+  float: right;
+  margin: 50px auto 10px 20px;
+}
+
+.profile-content {
+  width: 40%;
+  margin: 10px auto 60px auto;
+}
+
+.cp2 {
+  width: 25%;
+  text-align: center;
+  margin: 50px auto 10px auto;
+}
+
+.contact-me {
+  width: 40%;
+  margin: 60px auto 60px auto;
+}
+
+.skill-row {
+  width: 50%;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.5;
+  padding-bottom: 40px;
+}
+
+.middle {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.bottom-container{
+  background-color: #1eae98;
+  width=100%;
+  padding: 50px 0 20px 0;
+}
+.footer-link{
+  text-decoration: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #3edbf0;
+
+}
+.footer-link:hover{
+ color: #c0fefc;
+}
+.copyright{
+  color:#c0fefc;
+  font-size: 0.75rem;
+  padding-top: 20px;
+}
+.btn {
+  margin-top: 20px;
+  padding: 20px;
+  background: #11CDD4;
+  background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -webkit-gradient(to bottom, #11CDD4, #11999E);
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  border-radius: 12px;
+  height: 0;
+  line-height: 0;
+  color: #FFFFFF;
+  font-family: Arial;
+  width: 109px;
+  font-size: 16px;
+  font-weight: 100;
+  border: solid #337FED 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn:hover {
+  border: solid #337FED 1px;
+  background: #30E3CB;
+  background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -webkit-gradient(to bottom, #30E3CB, #2BC4AD);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+}
